@@ -1,4 +1,0 @@
-#Sun Feb 25 05:43:11 CST 2018
-base.0=C\:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\159
-path.0=classes.dex
-renamed.0=classes.dex
