@@ -25,6 +25,6 @@
         android:onClick="onCaptureClick"
         android:padding="@dimen/padding_medium"
         android:text="@string/button_capture_text"
-        android:textStyle="bold" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
 </FrameLayout>

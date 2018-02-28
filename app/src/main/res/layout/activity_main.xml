@@ -32,6 +32,15 @@
                 android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onSelectArmature0Click"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ct0" />
+
             <Button
                 android:id="@+id/button5"
                 android:layout_width="100dp"
