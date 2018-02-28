@@ -8,7 +8,62 @@
         android:id="@+id/text_view_camera_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click on an Armature to select it, then click on USE CAMERA" />
+        android:text="Tap on an Armature to select it, then tap on USE CAMERA" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Phi Rectangle"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ct0"
+                android:fontFamily="monospace"
+                android:onClick="onSelectArmature0Click"
+                android:text="Phi Rectangle"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ct1"
+                android:onClick="onSelectArmature1Click"
+                android:text="TESTTESTTESTTESTTEST" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Button" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
 
     <Button
         android:layout_width="fill_parent"
@@ -23,35 +78,5 @@
         android:layout_gravity="center"
         android:contentDescription="@string/content_desc_image_just_taken"
         android:scaleType="fitXY" />
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:cropToPadding="true"
-                android:onClick="onSelectArmature0Click"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/ct0" />
-
-            <ImageButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:cropToPadding="true"
-                android:elevation="@dimen/padding_medium"
-                android:onClick="onSelectArmature1Click"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/ct1" />
-        </LinearLayout>
-    </ScrollView>
 
 </LinearLayout>
