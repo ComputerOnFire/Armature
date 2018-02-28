@@ -32,6 +32,39 @@
                 android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ct1"
+                android:fontFamily="monospace"
+                android:onClick="onSelectArmature1Click"
+                android:text="Phi Rectangle Extended"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ct1"
+                android:fontFamily="monospace"
+                android:onClick="onSelectArmature2Click"
+                android:text="Root 2 Theme of 2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ct3"
+                android:fontFamily="monospace"
+                android:onClick="onSelectArmature3Click"
+                android:text="Root 2 Theme of 3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="100dp"
@@ -40,29 +73,6 @@
                 android:onClick="onSelectArmature0Click"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/ct0" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/ct1"
-                android:onClick="onSelectArmature1Click"
-                android:text="TESTTESTTESTTESTTEST" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Button" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:text="Button" />
 
             <Button
                 android:id="@+id/button8"
@@ -75,7 +85,8 @@
     </HorizontalScrollView>
 
     <Button
-        android:layout_width="fill_parent"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onUseCameraClick"
         android:text="@string/button_use_camera" />

@@ -54,6 +54,15 @@ public class MainActivity extends Activity {
     public void onSelectArmature1Click(View button) {
         selector = 1;
     }
+    @FromXML
+    public void onSelectArmature2Click(View button) {
+        selector = 2;
+    }
+
+    @FromXML
+    public void onSelectArmature3Click(View button) {
+        selector = 4;
+    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
