@@ -12,11 +12,13 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:contentDescription="@string/content_desc_overlay"
+        android:scaleType="fitCenter"
         android:src="@drawable/ct1" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="119dp"
+        android:layout_height="81dp"
         android:layout_gravity="right|center_vertical"
         android:onClick="onCaptureClick"
         android:padding="@dimen/padding_medium"
