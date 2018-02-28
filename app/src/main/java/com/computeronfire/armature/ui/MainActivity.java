@@ -49,7 +49,6 @@ public class MainActivity extends Activity {
     public void onSelectArmature0Click(View button) {
         selector = 0;
     }
-
     @FromXML
     public void onSelectArmature1Click(View button) {
         selector = 1;
@@ -58,10 +57,9 @@ public class MainActivity extends Activity {
     public void onSelectArmature2Click(View button) {
         selector = 2;
     }
-
     @FromXML
     public void onSelectArmature3Click(View button) {
-        selector = 4;
+        selector = 3;
     }
 
     @Override

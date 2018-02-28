@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Feb 28 03:20:09 CST 2018
+#Wed Feb 28 03:58:27 CST 2018
 2.base=C\:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\187
 5.set=DEX
 0.path=classes.dex

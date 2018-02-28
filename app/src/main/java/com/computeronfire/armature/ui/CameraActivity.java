@@ -38,9 +38,12 @@ public class CameraActivity extends Activity implements PictureCallback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Integer contentArray[] = new Integer[2];
+        Integer contentArray[] = new Integer[4]; //TODO: Make sure you add to these when adding new armatures
         contentArray[0] = R.layout.ct0;
         contentArray[1] = R.layout.ct1;
+        contentArray[2] = R.layout.ct2;
+        contentArray[3] = R.layout.ct3;
+
         setContentView(contentArray[MainActivity.selector]);
         setResult(RESULT_CANCELED);
         camera = getCameraInstance();

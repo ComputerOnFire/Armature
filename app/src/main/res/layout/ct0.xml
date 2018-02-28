@@ -18,7 +18,7 @@
         android:src="@drawable/ct0" />
 
     <Button
-        style="@android:style/Widget.Material.Light.Button.Inset"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right|center_vertical"

@@ -9,5 +9,9 @@
     <string name="content_desc_image_just_taken">Image taken</string>
     <string name="Description">Tap on an Armature to select it, then tap on USE CAMERA.</string>
     <string name="Overlay0">Phi Rectangle</string>
+    <string name="root_2_theme_of_2">Root 2 Theme of 2</string>
+    <string name="root_2_theme_of_3">Root 2 Theme of 3</string>
+    <string name="phi_rectangle_extended">Phi Rectangle Extended</string>
+    <string name="button">Button</string>
 
 </resources>

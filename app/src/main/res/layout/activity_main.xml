@@ -1,14 +1,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/text_view_camera_description"
+        android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Description" />
+        android:contentDescription="@string/Description"
+        android:text="@string/Description"
+        tools:text="@string/Description" />
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -40,7 +43,7 @@
                 android:background="@drawable/ct1"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature1Click"
-                android:text="Phi Rectangle Extended"
+                android:text="@string/phi_rectangle_extended"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
@@ -51,7 +54,7 @@
                 android:background="@drawable/ct1"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature2Click"
-                android:text="Root 2 Theme of 2"
+                android:text="@string/root_2_theme_of_2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
@@ -62,7 +65,7 @@
                 android:background="@drawable/ct3"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature3Click"
-                android:text="Root 2 Theme of 3"
+                android:text="@string/root_2_theme_of_3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <ImageButton
@@ -70,6 +73,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:contentDescription="@string/content_desc_overlay"
                 android:onClick="onSelectArmature0Click"
                 android:scaleType="fitCenter"
                 app:srcCompat="@drawable/ct0" />
@@ -79,7 +83,7 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/button" />
         </LinearLayout>
 
     </HorizontalScrollView>
