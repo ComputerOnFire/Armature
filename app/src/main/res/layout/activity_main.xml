@@ -20,14 +20,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/Phi Rectangle"
+                android:id="@+id/button4"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/ct0"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature0Click"
-                android:text="Phi Rectangle"
+                android:text="@string/Overlay0"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
