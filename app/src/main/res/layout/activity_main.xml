@@ -69,49 +69,56 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a4" />
+                android:background="@drawable/a4"
+                android:onClick="onSelectArmature4Click" />
 
             <Button
                 android:id="@+id/button"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a5" />
+                android:background="@drawable/a5"
+                android:onClick="onSelectArmature5Click" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a6" />
+                android:background="@drawable/a6"
+                android:onClick="onSelectArmature6Click" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a7" />
+                android:background="@drawable/a7"
+                android:onClick="onSelectArmature7Click" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a8" />
+                android:background="@drawable/a8"
+                android:onClick="onSelectArmature8Click" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a9" />
+                android:background="@drawable/a9"
+                android:onClick="onSelectArmature9Click" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a10" />
+                android:background="@drawable/a10"
+                android:onClick="onSelectArmature10Click" />
         </LinearLayout>
 
     </HorizontalScrollView>
