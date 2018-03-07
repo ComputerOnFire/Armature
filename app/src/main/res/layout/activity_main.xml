@@ -15,7 +15,7 @@
 
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="99dp">
+        android:layout_height="100dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -27,10 +27,9 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ct0"
+                android:background="@drawable/a0"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature0Click"
-                android:text="@string/Overlay0"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
@@ -40,10 +39,9 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ct1"
+                android:background="@drawable/a1"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature1Click"
-                android:text="@string/phi_rectangle_extended"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
@@ -51,10 +49,9 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ct1"
+                android:background="@drawable/a2"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature2Click"
-                android:text="@string/root_2_theme_of_2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
@@ -62,28 +59,59 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/ct3"
+                android:background="@drawable/a3"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature3Click"
-                android:text="@string/root_2_theme_of_3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-
-            <ImageButton
-                android:id="@+id/imageButton4"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:contentDescription="@string/content_desc_overlay"
-                android:onClick="onSelectArmature0Click"
-                android:scaleType="fitCenter"
-                app:srcCompat="@drawable/ct0" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="@string/button" />
+                android:background="@drawable/a4" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/a5" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/a6" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/a7" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/a8" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/a9" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/a10" />
         </LinearLayout>
 
     </HorizontalScrollView>
