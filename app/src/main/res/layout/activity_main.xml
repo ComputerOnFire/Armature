@@ -15,7 +15,7 @@
 
     <HorizontalScrollView
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -24,106 +24,139 @@
 
             <Button
                 android:id="@+id/button4"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a0"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature0Click"
+                android:text=" "
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
                 android:id="@+id/button5"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a1"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature1Click"
+                android:text=" "
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
                 android:id="@+id/button6"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a2"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature2Click"
+                android:text=" "
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
                 android:id="@+id/button7"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a3"
                 android:fontFamily="monospace"
                 android:onClick="onSelectArmature3Click"
+                android:text=" "
                 android:textAppearance="@style/TextAppearance.AppCompat.Small" />
 
             <Button
                 android:id="@+id/button8"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a4"
-                android:onClick="onSelectArmature4Click" />
+                android:onClick="onSelectArmature4Click"
+                android:text=" " />
 
             <Button
                 android:id="@+id/button"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a5"
-                android:onClick="onSelectArmature5Click" />
+                android:onClick="onSelectArmature5Click"
+                android:text=" " />
 
             <Button
                 android:id="@+id/button2"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a6"
-                android:onClick="onSelectArmature6Click" />
+                android:onClick="onSelectArmature6Click"
+                android:text=" " />
 
             <Button
                 android:id="@+id/button3"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a7"
-                android:onClick="onSelectArmature7Click" />
+                android:onClick="onSelectArmature7Click"
+                android:text=" " />
 
             <Button
                 android:id="@+id/button9"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a8"
-                android:onClick="onSelectArmature8Click" />
+                android:onClick="onSelectArmature8Click"
+                android:text=" " />
 
             <Button
                 android:id="@+id/button10"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a9"
-                android:onClick="onSelectArmature9Click" />
+                android:onClick="onSelectArmature9Click"
+                android:text=" " />
 
             <Button
                 android:id="@+id/button11"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a10"
-                android:onClick="onSelectArmature10Click" />
+                android:onClick="onSelectArmature10Click"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/button13"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/a11"
+                android:onClick="onSelectArmature11Click"
+                android:text=" " />
         </LinearLayout>
 
     </HorizontalScrollView>
 
     <Button
+        android:id="@+id/button12"
         style="@android:style/Widget.Button.Inset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

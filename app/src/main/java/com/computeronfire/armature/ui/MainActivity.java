@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, CameraActivity.class);
         startActivityForResult(intent, REQ_CAMERA_IMAGE);
     }
-
+//TODO: update icons, change UI layout, change UI colors. Modify image viewer?
     @FromXML
     public void onSelectArmature0Click(View button) {
         selector = 0;
@@ -88,6 +88,10 @@ public class MainActivity extends Activity {
     @FromXML
     public void onSelectArmature10Click(View button) {
         selector = 10;
+    }
+    @FromXML
+    public void onSelectArmature11Click(View button) {
+        selector = 11;
     }
 
     @Override

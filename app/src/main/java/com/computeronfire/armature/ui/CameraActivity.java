@@ -38,7 +38,7 @@ public class CameraActivity extends Activity implements PictureCallback {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Integer contentArray[] = new Integer[11]; //TODO: Make sure you add to these when adding new armatures
+        Integer contentArray[] = new Integer[12]; //TODO: Make sure you add to these when adding new armatures
         contentArray[0] = R.layout.a0;
         contentArray[1] = R.layout.a1;
         contentArray[2] = R.layout.a2;
@@ -50,6 +50,7 @@ public class CameraActivity extends Activity implements PictureCallback {
         contentArray[8] = R.layout.a8;
         contentArray[9] = R.layout.a9;
         contentArray[10] = R.layout.a10;
+        contentArray[11] = R.layout.a11;
 
         setContentView(contentArray[MainActivity.selector]);
         setResult(RESULT_CANCELED);
