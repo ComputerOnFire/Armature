@@ -1,9 +1,9 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/text_view_camera_description"
@@ -11,11 +11,19 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/Description"
         android:text="@string/tap_on_an_armature_to_select_it_then_tap_on_use_camera"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread"
         tools:text="@string/Description" />
 
     <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/image_view_captured_image"
+        app:layout_constraintStart_toStartOf="@+id/text_view_camera_description"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_camera_description">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -133,20 +141,33 @@
 
     </HorizontalScrollView>
 
+    <ImageView
+        android:id="@+id/image_view_captured_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/content_desc_image_just_taken"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
     <Button
         android:id="@+id/button12"
         style="@android:style/Widget.Button.Inset"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="150"
+        android:layout_height="75dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
         android:onClick="onUseCameraClick"
-        android:text="@string/button_use_camera" />
+        android:text="@string/button_use_camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view_captured_image" />
 
-    <ImageView
-        android:id="@+id/image_view_captured_image"
-        android:layout_width="300dip"
-        android:layout_height="250dip"
-        android:layout_gravity="center"
-        android:contentDescription="@string/content_desc_image_just_taken"
-        android:scaleType="fitXY" />
-
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>
