@@ -1036,6 +1036,10 @@
         "source": "C:\\Users\\John\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\748041d6295a7a5b05d509757fd45a62\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
+        "merged": "C:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a11.png.flat",
+        "source": "C:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\src\\main\\res\\drawable\\a11.png"
+    },
+    {
         "merged": "C:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\John\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\7de31bcbcb772bfaf8a30ded82095bf5\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -1874,6 +1878,10 @@
     {
         "merged": "C:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\John\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\7de31bcbcb772bfaf8a30ded82095bf5\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\res\\merged\\debug\\layout_a11.xml.flat",
+        "source": "C:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\src\\main\\res\\layout\\a11.xml"
     },
     {
         "merged": "C:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",

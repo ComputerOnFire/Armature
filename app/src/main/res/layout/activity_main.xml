@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/Description"
-        android:text="Tap on an Armature to select it, then tap on USE CAMERA."
+        android:text="@string/tap_on_an_armature_to_select_it_then_tap_on_use_camera"
         tools:text="@string/Description" />
 
     <HorizontalScrollView
@@ -28,13 +28,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a0"
-                android:fontFamily="monospace"
                 android:onClick="onSelectArmature0Click"
-                android:text=" "
-                android:textAlignment="center"
-                android:textAllCaps="false"
-                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                android:text="1" />
 
             <Button
                 android:id="@+id/button5"
@@ -42,11 +37,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a1"
-                android:fontFamily="monospace"
                 android:onClick="onSelectArmature1Click"
-                android:text=" "
-                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                android:text="2" />
 
             <Button
                 android:id="@+id/button6"
@@ -54,11 +46,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a2"
-                android:fontFamily="monospace"
                 android:onClick="onSelectArmature2Click"
-                android:text=" "
-                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                android:text="3" />
 
             <Button
                 android:id="@+id/button7"
@@ -66,11 +55,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a3"
-                android:fontFamily="monospace"
                 android:onClick="onSelectArmature3Click"
-                android:text=" "
-                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+                android:text="4" />
 
             <Button
                 android:id="@+id/button8"
@@ -78,9 +64,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a4"
                 android:onClick="onSelectArmature4Click"
-                android:text=" " />
+                android:text="5" />
 
             <Button
                 android:id="@+id/button"
@@ -88,9 +73,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a5"
                 android:onClick="onSelectArmature5Click"
-                android:text=" " />
+                android:text="6" />
 
             <Button
                 android:id="@+id/button2"
@@ -98,9 +82,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a6"
                 android:onClick="onSelectArmature6Click"
-                android:text=" " />
+                android:text="7" />
 
             <Button
                 android:id="@+id/button3"
@@ -108,9 +91,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a7"
                 android:onClick="onSelectArmature7Click"
-                android:text=" " />
+                android:text="8" />
 
             <Button
                 android:id="@+id/button9"
@@ -118,9 +100,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a8"
                 android:onClick="onSelectArmature8Click"
-                android:text=" " />
+                android:text="9" />
 
             <Button
                 android:id="@+id/button10"
@@ -128,9 +109,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a9"
                 android:onClick="onSelectArmature9Click"
-                android:text=" " />
+                android:text="10" />
 
             <Button
                 android:id="@+id/button11"
@@ -138,9 +118,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a10"
                 android:onClick="onSelectArmature10Click"
-                android:text=" " />
+                android:text="11" />
 
             <Button
                 android:id="@+id/button13"
@@ -148,9 +127,8 @@
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/a11"
                 android:onClick="onSelectArmature11Click"
-                android:text=" " />
+                android:text="12" />
         </LinearLayout>
 
     </HorizontalScrollView>

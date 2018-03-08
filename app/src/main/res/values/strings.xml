@@ -9,5 +9,6 @@
     <string name="content_desc_image_just_taken">Image taken</string>
     <string name="Description">Tap on an Armature to select it, then tap on USE CAMERA.</string>
     <string name="button">Button</string>
+    <string name="tap_on_an_armature_to_select_it_then_tap_on_use_camera">Tap on an Armature to select it, then tap on USE CAMERA.</string>
 
 </resources>
