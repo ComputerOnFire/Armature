@@ -24,109 +24,109 @@
 
             <Button
                 android:id="@+id/button4"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a0"
                 android:onClick="onSelectArmature0Click"
                 android:text="1" />
 
             <Button
                 android:id="@+id/button5"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a1"
                 android:onClick="onSelectArmature1Click"
                 android:text="2" />
 
             <Button
                 android:id="@+id/button6"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a2"
                 android:onClick="onSelectArmature2Click"
                 android:text="3" />
 
             <Button
                 android:id="@+id/button7"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a3"
                 android:onClick="onSelectArmature3Click"
                 android:text="4" />
 
             <Button
                 android:id="@+id/button8"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a4"
                 android:onClick="onSelectArmature4Click"
                 android:text="5" />
 
             <Button
                 android:id="@+id/button"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a5"
                 android:onClick="onSelectArmature5Click"
                 android:text="6" />
 
             <Button
                 android:id="@+id/button2"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a6"
                 android:onClick="onSelectArmature6Click"
                 android:text="7" />
 
             <Button
                 android:id="@+id/button3"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a7"
                 android:onClick="onSelectArmature7Click"
                 android:text="8" />
 
             <Button
                 android:id="@+id/button9"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a8"
                 android:onClick="onSelectArmature8Click"
                 android:text="9" />
 
             <Button
                 android:id="@+id/button10"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a9"
                 android:onClick="onSelectArmature9Click"
                 android:text="10" />
 
             <Button
                 android:id="@+id/button11"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a10"
                 android:onClick="onSelectArmature10Click"
                 android:text="11" />
 
             <Button
                 android:id="@+id/button13"
-                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@drawable/a11"
                 android:onClick="onSelectArmature11Click"
                 android:text="12" />
         </LinearLayout>
