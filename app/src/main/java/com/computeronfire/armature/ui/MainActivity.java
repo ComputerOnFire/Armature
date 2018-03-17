@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, CameraActivity.class);
         startActivityForResult(intent, REQ_CAMERA_IMAGE);
     }
-//TODO: update icons, change UI layout, change UI colors. Modify image viewer?
+//TODO: Remove first 4 unused armatures, update icons, change UI layout, change UI colors. Modify image viewer?
     @FromXML
     public void onSelectArmature0Click(View button) {
         selector = 0;

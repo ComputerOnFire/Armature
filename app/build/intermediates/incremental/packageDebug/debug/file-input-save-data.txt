@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Mar 08 05:27:34 CST 2018
+#Sat Mar 17 02:21:03 CDT 2018
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\John\\Dropbox\\Programming\\Projects\\Armature\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=classes.dex

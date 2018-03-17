@@ -31,49 +31,13 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button4"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/a0"
-                android:onClick="onSelectArmature0Click"
-                android:text="1" />
-
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/a1"
-                android:onClick="onSelectArmature1Click"
-                android:text="2" />
-
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/a2"
-                android:onClick="onSelectArmature2Click"
-                android:text="3" />
-
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@drawable/a3"
-                android:onClick="onSelectArmature3Click"
-                android:text="4" />
-
-            <Button
                 android:id="@+id/button8"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/a4"
                 android:onClick="onSelectArmature4Click"
-                android:text="5" />
+                android:text="1" />
 
             <Button
                 android:id="@+id/button"
@@ -82,7 +46,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/a5"
                 android:onClick="onSelectArmature5Click"
-                android:text="6" />
+                android:text="2" />
 
             <Button
                 android:id="@+id/button2"
@@ -91,7 +55,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/a6"
                 android:onClick="onSelectArmature6Click"
-                android:text="7" />
+                android:text="3" />
 
             <Button
                 android:id="@+id/button3"
@@ -100,7 +64,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/a7"
                 android:onClick="onSelectArmature7Click"
-                android:text="8" />
+                android:text="4" />
 
             <Button
                 android:id="@+id/button9"
@@ -109,7 +73,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/a8"
                 android:onClick="onSelectArmature8Click"
-                android:text="9" />
+                android:text="5" />
 
             <Button
                 android:id="@+id/button10"
@@ -118,7 +82,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/a9"
                 android:onClick="onSelectArmature9Click"
-                android:text="10" />
+                android:text="6" />
 
             <Button
                 android:id="@+id/button11"
@@ -127,7 +91,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/a10"
                 android:onClick="onSelectArmature10Click"
-                android:text="11" />
+                android:text="7" />
 
             <Button
                 android:id="@+id/button13"
@@ -136,7 +100,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/a11"
                 android:onClick="onSelectArmature11Click"
-                android:text="12" />
+                android:text="8" />
         </LinearLayout>
 
     </HorizontalScrollView>
