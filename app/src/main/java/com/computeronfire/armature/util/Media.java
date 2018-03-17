@@ -21,7 +21,7 @@ public class Media extends Activity {
     public static File getOutputMediaFile() {
         File mediaStorageDir;
         if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-            mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM), "Armature");
+            mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), "Armature");
         } else {
             mediaStorageDir = null;
         }
